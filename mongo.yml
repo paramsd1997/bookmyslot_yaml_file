@@ -33,7 +33,7 @@ spec:
      # terminationGracePeriodSeconds: 10
       containers:
       - name: mongo
-        image: rajmandale/bookmyslot:mongo
+        image: param036/capstone:mongo
         
         ports:
         - containerPort: 27017
