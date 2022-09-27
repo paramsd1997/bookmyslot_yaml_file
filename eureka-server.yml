@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: eureka-server
-        image: rajmandale/bookmyslot:project-eureka-server
+        image: param036/capstone:bookmyslot-eureka-server
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8761
